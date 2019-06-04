@@ -4,3 +4,5 @@ The oracle function will verify that there is a match for every proposer and pro
 It will then check if any proposer wants someone available who's better than their current match, or if any proposed wants someone available who's better than their current match (instability).
 
 People who want to use the file should probably comment out the last line that says "oracle(wheat1);" as wheat1 was a custom algorithm provided for students in COMPSCI 220 at UMass.
+
+The code in the file is one way of doing automated testing of Stable Matching Problem's solving algorithms for an arbitrary set of proposers and proposed of a given size n.
